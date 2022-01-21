@@ -1,0 +1,16 @@
+{
+    "name": "EazyTokenLogin",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Extension to simplify login with token in discord",
+    "content_scripts": [{
+    "matches": ["https://discord.com/login"],
+    "js": [
+        "content.js"
+    ]
+    }],
+    "icons": {
+        "16": "16.png",
+        "128": "128.png"
+    }
+}
